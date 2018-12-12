@@ -4,6 +4,9 @@ import './App.css';
 import GamePage from './components/gamepage';
 import Footer from './components/footer';
 import Sale from './components/sale';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+
 
 class App extends Component {
   render() {
@@ -50,20 +53,23 @@ class App extends Component {
             <Navbar className="header-navbar">
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="">Bitizens-TRON</a>
+                        <a href="/">Bitizens-TRON</a>
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>
-                    <NavItem eventKey={1} href="#">
-                        IGO
+                    <NavItem eventKey={1} href="/igo">IGO
                     </NavItem>
                     <NavItem eventKey={2} href="#">
                         ETH
                     </NavItem>
                 </Nav>
             </Navbar>
-            {/* <GamePage /> */}
-            <div className="bg-content"><Sale></Sale></div> 
+            <Router>
+                <div>
+                <Route exact path="/" component={GamePage} />
+                <Route path="/igo" component={Sale} />
+                </div>
+            </Router>          
             <Footer />
         </div>;
   }

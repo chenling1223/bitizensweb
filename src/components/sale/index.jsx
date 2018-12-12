@@ -471,6 +471,33 @@ class List extends React.Component {
       const { listUserPresaleTickets } = this.props;
         return (
             <div className="bg-content">
+            <style>{`
+              body {               
+                font-size: 14px;
+                color: #130029;
+              }
+                .bg-content {
+                  padding: 102px 10% 40px;
+                }
+                .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                  font-family: inherit;
+                  font-weight: 500;
+                  line-height: 1.1;
+                  color: inherit;
+              }
+              p {
+                margin: 0 0 10px;
+              }
+              h1 {
+                font-family: "futura-pt",futura,"Myriad Pro","Proxima Nova",sans-serif;
+                font-size: 2.6em;
+              }
+              h2 {
+                font-family: "futura-pt",futura,"Myriad Pro","Proxima Nova",sans-serif;
+                font-size: 1.7em;
+              }
+            `}
+            </style>
                 <div className="sale">
                     {this.presaleTitles()}
                     {this.presaleBanner()}
