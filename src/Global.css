@@ -105,3 +105,18 @@ a:hover {
 .hide.current {
     display: block;
 }
+
+.sale .row{
+    margin-bottom: 20px; 
+}
+
+.sale .titles {
+    height: 100px;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+
+.sale .title.with-subtitle {
+    margin: 0 0 14px 0;
+}

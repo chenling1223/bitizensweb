@@ -3,6 +3,7 @@ import { Navbar, Nav, NavItem } from "react-bootstrap";
 import './App.css';
 import GamePage from './components/gamepage';
 import Footer from './components/footer';
+import Sale from './components/sale';
 
 class App extends Component {
   render() {
@@ -39,6 +40,11 @@ class App extends Component {
                   line-height: 62px;
                   color: #FFFFFF !important;
                 }
+
+                .bg-content {
+                    padding: 40px 10%;
+                    text-align: left;
+                }
               `}
             </style>
             <Navbar className="header-navbar">
@@ -56,7 +62,8 @@ class App extends Component {
                     </NavItem>
                 </Nav>
             </Navbar>
-            <GamePage />
+            {/* <GamePage /> */}
+            <div className="bg-content"><Sale></Sale></div> 
             <Footer />
         </div>;
   }
