@@ -1,0 +1,310 @@
+.game-banner{
+    position: relative;
+    width: 100%;
+    height: 788px;
+    background-image: url('../../static/image/bitropolis_metro_header_large.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.game-banner-bitizens{
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: 5;
+    height: 800px;
+}
+
+.backgroun-features{
+    height: 2200px;
+    background: linear-gradient(to bottom,rgba(45,96,135,1) 0%,rgba(44,116,150,1) 31%,rgba(40,125,159,1) 52%,rgba(45,99,138,1) 72%,rgba(45,95,135,1) 100%);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 90%);
+}
+
+.game-landing{
+    position: absolute;
+    top: 750px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 15%;
+    height: 2000px;
+}
+
+.play-now{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: rgb(244, 142, 92);
+    color: white;
+    width: 100%;
+    height: 135px;
+    font-size: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .70);
+    z-index: 10;
+}
+
+.play-now button{
+    background: rgb(40,117,169,0);
+    border: 3px solid rgb(40,117,169);
+    border-radius: 5px;
+    color: rgb(40,117,169);
+    padding: 10px;
+    min-width: 150px;
+}
+
+.play-now button:hover{
+    background: rgb(40,117,169);
+    color: rgb(244, 142, 92);
+}
+
+.game-video{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 0 0;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .70);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.game-video iframe{
+    width: 100vw;
+    height: 45vw;
+}
+
+.bitizen-features{
+    color: white;
+    box-shadow: none;
+    height: 150px;
+    padding: 65px 0 0 0;
+    font-size: 2.1em;
+}
+
+.bitizen-text-left{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 20px 0 30px;
+    text-align: left;
+}
+
+.bitizen-text-right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 30px 20px 0 30px;
+    text-align: left;
+}
+
+.bitizen-text-left h2{
+    margin: 0 0 20px 0;
+    color: rgb(40,117,169);
+    font-size: 1.7em;
+}
+
+.bitizen-text-left p{
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.bitizen-text-right h2{
+    margin: 0 0 20px 0;
+    color: rgb(40,117,169);
+    font-size: 1.7em;
+}
+
+.bitizen-text-right p{
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.bitizen-wardrobe{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 280px;
+    background: white;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .70);
+    justify-content: space-evenly;
+    padding: 40px;
+    z-index: 10;
+}
+
+.bitizen-wardrobe-bg{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../../static/image/avatar_closet.png');
+    background-size: cover;
+}
+
+.bitizen-mining{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 280px;
+    background: white;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .70);
+    justify-content: space-evenly;
+    padding: 40px;
+    z-index: 10;
+}
+
+.bitizen-mining-bg{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('../../static/image/mining.png');
+    background-size: cover;
+}
+
+.bitizen-bitropolis{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 280px;
+    background: white;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .70);
+    justify-content: space-evenly;
+    padding: 40px;
+    z-index: 10;
+}
+
+.bitizen-bitropolis-bg{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../../static/image/bitropolis_thumbnail.png');
+    background-size: cover;
+}
+
+.bitropolis_globe{
+    position: absolute;
+    height: 600px;
+    left: 0;
+    top: 2400px;
+    z-index: 5;
+}
+
+.background-yellow{
+    width: 100%;
+    height: 2300px;
+    background: rgb(245,237,162);
+    clip-path: polygon(100% 0%,100% 0,100% 100%,-80% 100%);
+}
+
+.single-title{
+    position: relative;
+    color: rgb(40,117,169);
+    box-shadow: none;
+    height: 150px;
+    padding: 65px 0 0 0;
+    margin: 550px 0 0 0;
+    font-size: 2.1em;
+    z-index: 10;
+}
+
+.limited-items{
+    box-align: center;
+    -webkit-box-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+    margin-top: 100px;
+    z-index: 10;
+}
+
+.limited-items img{
+    max-width: 50%;
+    max-height: 500px;
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+
+.limited-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    box-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    z-index: 10;
+}
+
+.limited-text p{
+    color: rgb(38,160,154);
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+
+.limited-text button{
+    background: rgb(244,142,92);
+    border: 3px solid rgb(244,142,92);
+    border-radius: 5px;
+    color: rgb(40,117,169);
+    padding: 10px;
+    min-width: 150px;
+}
+
+.limited-text button:hover{
+    background: rgba(244,142,92,0);
+}
+
+.backgroun-dark{
+    height: 600px;
+    background: rgb(29,54,63);
+}
+
+.rocket-img{
+    position: absolute;
+    right: 50px;
+    top: 4850px;
+    height: 650px;
+}
+
+.launchpad-img{
+    position: absolute;
+    right: 50px;
+    top: 5050px;
+    height: 850px;
+}
+
+@media screen and (max-width:992px){
+    .game-landing{
+        padding: 0 5%;
+    }
+}
